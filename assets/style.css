@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px; 
+    color: #333;
+    background: #efeee7;
+  }
+
+
+  header {
+    background-color: #ffffff;
+  /*   border: solid;
+    border-color:  #ffffff; */
+    height: 90px;
+   /*  padding-top: 30px;
+    padding-bottom: 30px; */
+  }
+
+  h1 {
+    background-color:#4aaaa5;
+   /*  border-color: #cccccc; */
+   /*  padding-top: 30px;
+    padding-bottom: 30px;  */
+    font-size: 45px;
+    position: fixed;
+    left: 90px;
+    width: 15%;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    /* height: 90px; */
+    /* margin-left: 10%; */
+    color: #ffffff;
+    text-align: center;
+    
+    
+  }
+
+
+
+  navigation{
+    width: 20%;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    
+  }
+
+  footer{
+    
+    position:fixed;
+    bottom: 0;
+    background-color:gray;
+    Padding: 30px;
+    width: 100%;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+   }
+
+
+
+  h2{
+    color: #4aaaa5;
+    font-size: 2em;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h3{
+    color: #4aaaa5;
+  }
+
+
+  .main_content{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 90px;
+    float: left;
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 23px;
+  }
+
+
+
+  #My_Picture{
+    float: left;
+    width: 400px;
+    margin-right:20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  a{
+    display:inline-block;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  
+
+  .My_Contact_Info {
+    position: fixed;
+    right: 100px;
+    margin: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+
+  #Message_Box {
+    height: 150px;
+    width: 500px;
+  }
+
+  form{
+    position: relative;
+    left: 15%;
+  }
+
+  input{
+    margin-bottom: 10px;
+    width:500px;
+    color: gray;
+    
+  }
+
+  button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Portfolio_Album{
+    /* display: inline; */
+    /* letter-spacing: 50px; */
+    margin-left: 50px;
+    letter-spacing: 50px;
+  }
