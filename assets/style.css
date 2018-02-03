@@ -13,19 +13,20 @@ body {
 
   header {
     background-color: #ffffff;
-    height: 90px;
+    height: 65px;
   }
 
   h1 {
+    clear: both;
     background-color:#4aaaa5;
     font-size: 45px;
     position: fixed; /* This is to make h1 sticky */
     left: 90px;
-    width: 15%;
-    padding-top: 22.5px; /* one way to make element box bigger */
-    padding-bottom: 22.5px;
+    /* width: 15%; */
+    height: 65px;
     color: #ffffff;
     text-align: center;
+    vertical-align: 50%;
     
     
   }
@@ -36,7 +37,7 @@ body {
     width: 20%;
     position: absolute; /* this make the navigation menu move relative to heder element */
     right: 20px;
-    top: 30px;
+    top: 20px;
     
   }
 
@@ -44,7 +45,7 @@ body {
     position:fixed; /* keeps footer on the bottom of the window */
     bottom: 0;
     background-color:gray;
-    Padding: 30px;
+    Padding: 20px;
     width: 100%;
     text-align: center;
     border-top: 10px solid #4aaaa5;
